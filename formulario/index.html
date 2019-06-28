@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">    
+</head>
+<body>
+    <div class="contenedor">
+    <form action="" name="formulario" id="formulario">
+        <div class="contenedor-input">
+            <input type="text" name="nombre" placeholder="nombre">
+            <input type="text" name="correo" placeholder="correo">
+
+            <div class="sexo">
+                <input type="radio" name="sexo" id="hombre" value="hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" id="mujer" value="mujer">
+                <label for="mujer">Mujer</label>
+            </div>
+            <div class="terminos">
+                <input type="checkbox" name="terminos" id="terminos">
+                <label for="terminos">Terminos y Condiciones</label>
+            </div>
+            <ul class="error"></ul>
+            
+            <input type="submit" class="btn" value="Registrarse">
+        </div>
+
+    </form>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
